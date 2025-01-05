@@ -39,30 +39,16 @@ class Car {
 
 int main (){
 
-    Car Rose1, Rose2;                                         // The constructor will be called based on the number of objects
-        cout << "\n";                                         //Constructor start works from the creation of object 
+    Car Rose_1, Rose_2;               // the constructor is called where the object is created                               
 
-        cout << "Owner: " << Rose1.owner << endl;
-        cout << "Numberplate: " << Rose1.numberplate << endl;
-        cout << "Price: " << Rose1.price << endl;
-        cout << "Color: " << Rose1.color << endl;
-        cout << "Company: " << Rose1.company << endl << endl;
-    
-        cout << "Owner: " << Rose2.owner << endl;
-        cout << "Numberplate: " << Rose2.numberplate << endl;
-        cout << "Price: " << Rose2.price << endl;
-        cout << "Color: " << Rose2.color << endl;
-        cout << "Company: " << Rose2.company << endl << endl;
+    Rose_1.printdata();
+    Rose_2.printdata();
 
-    Car Rose3;
 
-        cout << "\n";
+    Car Rose_3;
+    Rose_3.printdata();
 
-        cout << "Owner: " << Rose3.owner << endl;
-        cout << "Numberplate: " << Rose3.numberplate << endl;
-        cout << "Price: " << Rose3.price << endl;
-        cout << "Color: " << Rose3.color << endl;
-        cout << "Company: " << Rose3.company << endl;
+
 
     return 0;
 }
