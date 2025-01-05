@@ -29,30 +29,30 @@ class Car {
 int main (){
 
 
-    Car ROSE1, ROSE2, ROSE3;
+    Car Rose_1, Rose_2, Rose_3;
 
-    ROSE1.owner = "Rose1";
-    ROSE1.numberplate = 8686;
-    ROSE1.price = 200000;
-    ROSE1.color = "white";
-    ROSE1.company = "Toyota";
+    Rose_1.owner = "Rose1";
+    Rose_1.numberplate = 8686;
+    Rose_1.price = 200000;
+    Rose_1.color = "white";
+    Rose_1.company = "Toyota";
 
-    ROSE2.owner = "Rose2";
-    ROSE2.numberplate = 8888;
-    ROSE2.price = 250000;
-    ROSE2.color = "white";
-    ROSE2.company = "Tesla";
+    Rose_2.owner = "Rose2";
+    Rose_2.numberplate = 8888;
+    Rose_2.price = 250000;
+    Rose_2.color = "white";
+    Rose_2.company = "Tesla";
 
-    ROSE3.owner = "Rose3";
-    ROSE3.numberplate = 1998;
-    ROSE3.price = 300000;
-    ROSE3.color = "white";
-    ROSE3.company = "Bentaly";
+    Rose_3.owner = "Rose3";
+    Rose_3.numberplate = 1998;
+    Rose_3.price = 300000;
+    Rose_3.color = "white";
+    Rose_3.company = "Bentaly";
 
 
-    ROSE1.printdata();
-    ROSE2.printdata();
-    ROSE3.printdata();
+    Rose_1.printdata();
+    Rose_2.printdata();
+    Rose_3.printdata();
 
 
 
