@@ -29,7 +29,7 @@ class Car {
 int main (){
 
 
-    Car ROSE1, ROSE2, ROE3;
+    Car ROSE1, ROSE2, ROSE3;
 
     ROSE1.owner = "Rose1";
     ROSE1.numberplate = 8686;
@@ -43,16 +43,16 @@ int main (){
     ROSE2.color = "white";
     ROSE2.company = "Tesla";
 
-    ROE3.owner = "Rose3";
-    ROE3.numberplate = 1998;
-    ROE3.price = 300000;
-    ROE3.color = "white";
-    ROE3.company = "Bentaly";
+    ROSE3.owner = "Rose3";
+    ROSE3.numberplate = 1998;
+    ROSE3.price = 300000;
+    ROSE3.color = "white";
+    ROSE3.company = "Bentaly";
 
 
     ROSE1.printdata();
     ROSE2.printdata();
-    ROE3.printdata();
+    ROSE3.printdata();
 
 
 
