@@ -34,19 +34,19 @@ int main (){
     Rose_1.owner = "Rose1";
     Rose_1.numberplate = 8686;
     Rose_1.price = 200000;
-    Rose_1.color = "white";
+    Rose_1.color = "White";
     Rose_1.company = "Toyota";
 
     Rose_2.owner = "Rose2";
     Rose_2.numberplate = 8888;
     Rose_2.price = 250000;
-    Rose_2.color = "white";
+    Rose_2.color = "Red";
     Rose_2.company = "Tesla";
 
     Rose_3.owner = "Rose3";
     Rose_3.numberplate = 1998;
     Rose_3.price = 300000;
-    Rose_3.color = "white";
+    Rose_3.color = "Blue";
     Rose_3.company = "Bentaly";
 
 

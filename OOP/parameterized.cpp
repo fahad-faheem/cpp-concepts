@@ -15,13 +15,13 @@ class Car {
         string color;
         string company;
 
-  Car (string car_owner){                             
+  Car (string car_owner, int car_numberplate, int car_price, string car_color, string car_company){                             
         cout << "----- Details -----" << endl;           
         owner = car_owner;
-        numberplate = 8888;
-        price = 200000;
-        color = "white";
-        company = "Toyota";
+        numberplate = car_numberplate;
+        price = car_price;
+        color = car_color;
+        company = car_company;
 
     }
 
@@ -39,13 +39,15 @@ class Car {
 
 int main (){
 
-    Car Rose_1("Rose1"), Rose_2("Rose2");                                         
-
+    Car Rose_1("Rose1", 8686, 200000, "white", "Toyota");                                    
     Rose_1.printdata();
+
+
+    Car Rose_2("Rose2", 8888, 250000, "Red", "Tesla"); 
     Rose_2.printdata();
 
 
-    Car Rose_3("Rose3");
+    Car Rose_3("Rose3", 1998, 300000, "Blue", "Bentaly");
     Rose_3.printdata();
 
 
