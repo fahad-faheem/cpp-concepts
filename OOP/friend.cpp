@@ -17,13 +17,13 @@ class Car {
 
     public:
 
-        friend void insertdata (Car& o, string car_owner, string car_color, string car_company, int car_numberplate, int car_price);
+        friend void setdata (Car& o, string car_owner, string car_color, string car_company, int car_numberplate, int car_price);
         friend void printdata (Car& obj);
 
     
 };
 
-void insertdata (Car& obj, string car_owner, string car_color, string car_company, int car_numberplate, int car_price){
+void setdata (Car& obj, string car_owner, string car_color, string car_company, int car_numberplate, int car_price){
 
         obj.owner = car_owner;
         obj.color = car_color;
@@ -48,9 +48,9 @@ int main (){
 
     Car Rose_1, Rose_2, Rose_3;
 
-        insertdata (Rose_1, "Rose1", "White", "Toyota", 8686, 200000);
-        insertdata (Rose_2, "Rose2", "Red", "Tesla", 8888, 250000);
-        insertdata (Rose_3, "Rose3", "Blue", "Bentaly", 1998, 300000);
+        setdata (Rose_1, "Rose1", "White", "Toyota", 8686, 200000);
+        setdata (Rose_2, "Rose2", "Red", "Tesla", 8888, 250000);
+        setdata (Rose_3, "Rose3", "Blue", "Bentaly", 1998, 300000);
 
         printdata (Rose_1);
         printdata (Rose_2);
