@@ -13,7 +13,7 @@ class Car {
 
     protected:
 
-        int passkey = 8818;
+        int password = 8818;
 
     public:
 
@@ -38,7 +38,7 @@ void printdata (Car& obj){
         cout << obj.numberplate << endl;
         cout << obj.price << endl;
         cout << obj.color << endl;
-        cout << obj.passkey << endl;
+        cout << obj.password << endl;
         cout << obj.company << "\n" << endl;
 
     };
